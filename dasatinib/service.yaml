@@ -4,7 +4,7 @@ info:
   title: 'CNS_TAP_DASATINIB'
   description: CNS_TAP_DASATINIB
 servers:
-  - url: /natalielampa/dasatinib
+  - url: /99999/dasatinib
     description: CNS_TAP_DASATINIB
 paths:
   /cnstap:
@@ -39,17 +39,17 @@ components:
   schemas:
     input:
       required:
-        - name
-        - name_two
-        - name_three
+        - percent_tumor
+        - parsons_score
+        - trial_considered
       properties:
-        name:
+        percent_tumor:
           type: integer
           example: 0
-        name_two:
+        parsons_score:
           type: integer
           example: 0
-        name_three:
+        trial_considered:
           type: integer
           example: 0
         # patient.features:

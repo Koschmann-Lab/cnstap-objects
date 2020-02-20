@@ -1,9 +1,9 @@
 {
-    "@id": "natalielampa-dasatinib",
+    "@id": "99999-dasatinib",
     "@type": "koio:KnowledgeObject",
-    "identifier": "ark:/natalielampa/dasatinib",
+    "identifier": "ark:/99999/dasatinib",
     "version": "1.0.0",
-    "title": "Knowledge Object Title",
+    "title": "CNS_TAP Dasatinib",
     "contributors": "Kgrid Team",
     "description": "Knowledge Object Description",
     "keywords": [

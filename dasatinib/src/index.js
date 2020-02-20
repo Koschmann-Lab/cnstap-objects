@@ -4,9 +4,9 @@ function cnstap(inputs){
   // 0, 1, 2
   // 0, 1, 2
   // 0, 1
-  var gi1 = inputs.name
-  var gi2 = inputs.name_two
-  var gi3 = inputs.name_three
+  var gi1 = inputs.percent_tumor
+  var gi2 = inputs.parsons_score
+  var gi3 = inputs.trial_considered
 
   var weights = {
     "two":2,
