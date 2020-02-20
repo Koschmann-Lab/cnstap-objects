@@ -1,0 +1,60 @@
+openapi: 3.0.2
+info:
+  version: '0.1'
+  title: 'CNS_TAP_BINIMETINIB'
+  description: CNS_TAP_BINIMETINIB
+servers:
+  - url: /99999/binimetinib
+    description: CNS_TAP_BINIMETINIB
+paths:
+  /cnstap:
+    post:
+      description: cns_tap_binimetinib
+      operationId: cns_tap_binimetinib
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/input'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/output'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: 'https://demo.kgrid.org/schemas/basicerror.yaml'
+      x-kgrid-activation:
+        artifact: src/index.js
+        adapter: JAVASCRIPT
+        entry: cnstap
+components:
+  schemas:
+    input:
+      required:
+        - percent_tumor
+        - parsons_score
+        - trial_considered
+      properties:
+        percent_tumor:
+          type: integer
+          example: 0
+        parsons_score:
+          type: integer
+          example: 0
+        trial_considered:
+          type: integer
+          example: 0
+    output:
+      required:
+        - result
+      properties:
+        result:
+          type: object
