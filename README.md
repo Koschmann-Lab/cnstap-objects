@@ -30,7 +30,7 @@ dasatanib             <-- chemotherapy drug name\
 |--src\
 &nbsp;&nbsp;&nbsp;&nbsp;|--index.js
 
-The payload file of each KO in this class combines structured data and software code.
+The payload file of each KO in this class combines structured data and software code represented using the JavaScript programming language.
 
 The structured data in each KO is two-fold. Along with a set of weights (not shown), there is in each KO a drug-specific set of 6 chemotherapy drug facts and 3 patient-specific characteristics represented in a variable object with 9 overall features like this one for dasatanib:
 
@@ -45,3 +45,7 @@ var dasatinib = {\
 &nbsp;&nbsp;&nbsp;&nbsp;"varient_tier":0,      &nbsp;&nbsp;&nbsp;&nbsp; #patient-specific characteristic\
 &nbsp;&nbsp;&nbsp;&nbsp;"clinical_trial":0     &nbsp;&nbsp;&nbsp;&nbsp; #patient-specific characteristic\
 }
+
+The purpose of each drug-specific KO is to have an externalized, encapsulated, well-described, robust, shareable programmatic method for computing a chemotherapy drug and patient-specific utility score based on the drug facts and patient-specific characteristics listed above.
+
+The patient-specific inputs and the outputs from these KOs are detailed in the service.yaml file.
