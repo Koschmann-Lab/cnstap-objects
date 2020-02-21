@@ -11,11 +11,11 @@ myfirstKO\
 |--metadata.json\
 |--service.yaml\
 |--src\
-   |--payload_file_1]\
-   .\
-   .\
-   .\
-   |-payload_file_n\
+&nbsp;&nbsp;&nbsp;|--payload_file_1]\
+&nbsp;&nbsp;&nbsp;.\
+&nbsp;&nbsp;&nbsp;.\
+&nbsp;&nbsp;&nbsp;.\
+&nbsp;&nbsp;&nbsp;|-payload_file_n\
 
 Every KO has a metadata.json file with descriptive information and a service.yaml file describing an API service in the OpenAPI 3.0 format.
 
