@@ -11,11 +11,12 @@ myfirstKO\
 |--metadata.json\
 |--service.yaml\
 |--src\
-&nbsp;&nbsp;&nbsp;|--payload_file_1]\
+&nbsp;&nbsp;&nbsp;|--payload_file_1\
 &nbsp;&nbsp;&nbsp;.\
 &nbsp;&nbsp;&nbsp;.\
 &nbsp;&nbsp;&nbsp;.\
-&nbsp;&nbsp;&nbsp;|-payload_file_n\
+&nbsp;&nbsp;&nbsp;|-payload_file_n
+
 
 Every KO has a metadata.json file with descriptive information and a service.yaml file describing an API service in the OpenAPI 3.0 format.
 
@@ -33,14 +34,14 @@ The payload file of each KO in this class combines structured data and software 
 
 The structured data in each KO is two-fold. Along with a set of weights (not shown), there is in each KO a drug-specific set of 6 chemotherapy drug facts and 3 patient-specific characteristics represented in a variable object with 9 overall features like this one for dasatanib:
 
-var dasatinib = {
-    "tumor_in_vitro":2,     #drug fact
-    "tumor_in_vivo":2,      #drug fact
-    "phase_one":2,          #drug fact
-    "cns_data_response":1,  #drug fact
-    "brain_penetration":2,  #drug fact
-    "fda_approve":1,        #drug fact
-    "clonality":0,          #patient-specific characteristic
-    "varient_tier":0,       #patient-specific characteristic
-    "clinical_trial":0      #patient-specific characteristic
+var dasatinib = {\
+&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vitro":2,     #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vivo":2,      #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"phase_one":2,          #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"cns_data_response":1,  #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"brain_penetration":2,  #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"fda_approve":1,        #drug fact\
+&nbsp;&nbsp;&nbsp;&nbsp;"clonality":0,          #patient-specific characteristic\
+&nbsp;&nbsp;&nbsp;&nbsp;"varient_tier":0,       #patient-specific characteristic\
+&nbsp;&nbsp;&nbsp;&nbsp;"clinical_trial":0      #patient-specific characteristic\
 }
