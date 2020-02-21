@@ -7,15 +7,15 @@ This project requires a class of KOs that, when their payloads are executed, wil
 
 From a file-system perspective, all KOs conform to the following hierarchical structure of folders and files:
 
-myfirstKO
-|--metadata.json
-|--service.yaml
-|--src
-   |--payload_file_1
-   .
-   .
-   .
-   |-payload_file_n
+myfirstKO\
+|--metadata.json\
+|--service.yaml\
+|--src\
+   |--payload_file_1]\
+   .\
+   .\
+   .\
+   |-payload_file_n\
 
 Every KO has a metadata.json file with descriptive information and a service.yaml file describing an API service in the OpenAPI 3.0 format.
 
