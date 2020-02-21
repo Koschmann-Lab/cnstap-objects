@@ -28,7 +28,7 @@ dasatanib             <-- chemotherapy drug name\
 |--metadata.json\
 |--service.yaml\
 |--src\
-&nbsp;&nbsp;&nbsp;&nbsp;|--index.js\
+&nbsp;&nbsp;&nbsp;&nbsp;|--index.js
 
 The payload file of each KO in this class combines structured data and software code.
 
