@@ -24,11 +24,11 @@ Every KO also has one or more payload files. The payload files contain structure
 
 For the 2020 CNS-TAP web application development project, the main class of KOs has the following file hierarchy:
 
-dasatanib             <-- chemotherapy drug name
-|--metadata.json
-|--service.yaml
-|--src
-   |--index.js
+dasatanib             <-- chemotherapy drug name\
+|--metadata.json\
+|--service.yaml\
+|--src\
+&nbsp;&nbsp;&nbsp;&nbsp;|--index.js\
 
 The payload file of each KO in this class combines structured data and software code.
 
