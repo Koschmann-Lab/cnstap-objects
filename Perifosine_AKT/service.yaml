@@ -1,0 +1,64 @@
+openapi: 3.0.2
+info:
+  version: '0.1'
+  title: 'CNS_TAP_Perifosine_AKT'
+  description: CNS_TAP_Perifosine_AKT
+servers:
+  - url: /99999/Perifosine_AKT
+    description: CNS_TAP_Perifosine_AKT
+paths:
+  /cnstap:
+    post:
+      description: cns_tap_Perifosine_AKT
+      operationId: cns_tap_Perifosine_AKT
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/input'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/output'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: 'https://demo.kgrid.org/schemas/basicerror.yaml'
+      x-kgrid-activation:
+        artifact: src/index.js
+        adapter: JAVASCRIPT
+        entry: cnstap
+components:
+  schemas:
+    input:
+      required:
+        - percent_tumor
+        - parsons_score
+        - trial_considered
+      properties:
+        percent_tumor:
+          type: integer
+          example: 0
+        parsons_score:
+          type: integer
+          example: 0
+        trial_considered:
+          type: integer
+          example: 0
+        # patient.features:
+        #   type: array
+          # items:
+            # $ref: 'https://demo.kgrid.org/schemas/patientFeature.yaml'
+    output:
+      required:
+        - result
+      properties:
+        result:
+          type: object
