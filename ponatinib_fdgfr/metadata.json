@@ -1,9 +1,9 @@
 {
-    "@id": "99999-ponatinib_pdgfr",
+    "@id": "99999-ponatinib_fdgfr",
     "@type": "koio:KnowledgeObject",
-    "identifier": "ark:/99999/ponatinib_pdgfr",
+    "identifier": "ark:/99999/ponatinib_fdgfr",
     "version": "1.0.0",
-    "title": "CNS_TAP Ponatinib_pdgfr",
+    "title": "CNS_TAP Ponatinib_fdgfr",
     "contributors": "Kgrid Team",
     "description": "Knowledge Object Description",
     "keywords": [
