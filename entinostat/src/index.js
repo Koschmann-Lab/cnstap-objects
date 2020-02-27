@@ -19,9 +19,9 @@ function cnstap(inputs){
   var entinostat = {
       "tumor_in_vitro":2,
       "tumor_in_vivo":2,
-      "phase_one":2,
-      "cns_data_response":2,
-      "brain_penetration":2,
+      "phase_one":1,
+      "cns_data_response":0,
+      "brain_penetration":1,
       "fda_approve":0,
       "clonality":0,
       "varient_tier":0,
