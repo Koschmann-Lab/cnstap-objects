@@ -11,7 +11,7 @@
         "object"
     ],
     "hasServiceSpecification": "service.yaml",
-    "hasDeploymentSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
     "hasPayload": [
         "src/index.js"
     ],
