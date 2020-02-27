@@ -1,0 +1,21 @@
+{
+    "@id": "99999-pazopanib_fgfr",
+    "@type": "koio:KnowledgeObject",
+    "identifier": "ark:/99999/pazopanib_fgfr",
+    "version": "1.0.0",
+    "title": "CNS_TAP Pazopanib_fgfr",
+    "contributors": "Kgrid Team",
+    "description": "Knowledge Object Description",
+    "keywords": [
+        "knowledge",
+        "object"
+    ],
+    "hasServiceSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
+    "hasPayload": [
+        "src/index.js"
+    ],
+    "@context": [
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+    ]
+}
