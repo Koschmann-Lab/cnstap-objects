@@ -1,16 +1,16 @@
 openapi: 3.0.2
 info:
   version: '0.1'
-  title: 'CNS_TAP_PONATINIB_FDGFR'
-  description: CNS_TAP_PONATINIB_FDGFR
+  title: 'CNS_TAP_ponatinib_pdgfr'
+  description: CNS_TAP_ponatinib_pdgfr
 servers:
-  - url: /99999/ponatinib_fdgfr
-    description: CNS_TAP_PONATINIB_FDGFR
+  - url: /99999/ponatinib_pdgfr
+    description: CNS_TAP_ponatinib_pdgfr
 paths:
   /cnstap:
     post:
-      description: cns_tap_ponatinib_fdgfr
-      operationId: cns_tap_ponatinib_fdgfr
+      description: cns_tap_ponatinib_pdgfr
+      operationId: cns_tap_ponatinib_pdgfr
       requestBody:
         description: inputs
         required: true

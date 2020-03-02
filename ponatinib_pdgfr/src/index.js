@@ -16,7 +16,7 @@ function cnstap(inputs){
     "twenty":20
   }
 
-  var ponatinib_fdgfr = {
+  var ponatinib_pdgfr = {
       "tumor_in_vitro":2,
       "tumor_in_vivo":2,
       "phase_one":0,
@@ -28,19 +28,19 @@ function cnstap(inputs){
       "clinical_trial":0
   }
 
-  ponatinib_fdgfr.clonality = gi1
-  ponatinib_fdgfr.varient_tier = gi2
-  ponatinib_fdgfr.clinical_trial = gi3
+  ponatinib_pdgfr.clonality = gi1
+  ponatinib_pdgfr.varient_tier = gi2
+  ponatinib_pdgfr.clinical_trial = gi3
 
-  var score = (ponatinib_fdgfr.tumor_in_vitro*weights.two) +
-              (ponatinib_fdgfr.tumor_in_vivo*weights.three) +
-              (ponatinib_fdgfr.phase_one*weights.three) +
-              (ponatinib_fdgfr.cns_data_response*weights.five) +
-              (ponatinib_fdgfr.brain_penetration*weights.five) +
-              (ponatinib_fdgfr.fda_approve*weights.ten) +
-              (ponatinib_fdgfr.clonality*weights.five) +
-              (ponatinib_fdgfr.varient_tier*weights.three) +
-              (ponatinib_fdgfr.clinical_trial*weights.twenty)
+  var score = (ponatinib_pdgfr.tumor_in_vitro*weights.two) +
+              (ponatinib_pdgfr.tumor_in_vivo*weights.three) +
+              (ponatinib_pdgfr.phase_one*weights.three) +
+              (ponatinib_pdgfr.cns_data_response*weights.five) +
+              (ponatinib_pdgfr.brain_penetration*weights.five) +
+              (ponatinib_pdgfr.fda_approve*weights.ten) +
+              (ponatinib_pdgfr.clonality*weights.five) +
+              (ponatinib_pdgfr.varient_tier*weights.three) +
+              (ponatinib_pdgfr.clinical_trial*weights.twenty)
 
 
   return score
