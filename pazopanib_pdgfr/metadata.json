@@ -1,9 +1,9 @@
 {
-    "@id": "99999-pazopanib_fdgfr",
+    "@id": "99999-pazopanib_pdgfr",
     "@type": "koio:KnowledgeObject",
-    "identifier": "ark:/99999/pazopanib_fdgfr",
+    "identifier": "ark:/99999/pazopanib_pdgfr",
     "version": "1.0.0",
-    "title": "CNS_TAP Pazopanib_fdgfr",
+    "title": "CNS_TAP pazopanib_pdgfr",
     "contributors": "Kgrid Team",
     "description": "Knowledge Object Description",
     "keywords": [

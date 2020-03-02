@@ -16,7 +16,7 @@ function cnstap(inputs){
     "twenty":20
   }
 
-  var pazopanib_fdgfr = {
+  var pazopanib_pdgfr = {
       "tumor_in_vitro":2,
       "tumor_in_vivo":2,
       "phase_one":2,
@@ -28,19 +28,19 @@ function cnstap(inputs){
       "clinical_trial":0
   }
 
-  pazopanib_fdgfr.clonality = gi1
-  pazopanib_fdgfr.varient_tier = gi2
-  pazopanib_fdgfr.clinical_trial = gi3
+  pazopanib_pdgfr.clonality = gi1
+  pazopanib_pdgfr.varient_tier = gi2
+  pazopanib_pdgfr.clinical_trial = gi3
 
-  var score = (pazopanib_fdgfr.tumor_in_vitro*weights.two) +
-              (pazopanib_fdgfr.tumor_in_vivo*weights.three) +
-              (pazopanib_fdgfr.phase_one*weights.three) +
-              (pazopanib_fdgfr.cns_data_response*weights.five) +
-              (pazopanib_fdgfr.brain_penetration*weights.five) +
-              (pazopanib_fdgfr.fda_approve*weights.ten) +
-              (pazopanib_fdgfr.clonality*weights.five) +
-              (pazopanib_fdgfr.varient_tier*weights.three) +
-              (pazopanib_fdgfr.clinical_trial*weights.twenty)
+  var score = (pazopanib_pdgfr.tumor_in_vitro*weights.two) +
+              (pazopanib_pdgfr.tumor_in_vivo*weights.three) +
+              (pazopanib_pdgfr.phase_one*weights.three) +
+              (pazopanib_pdgfr.cns_data_response*weights.five) +
+              (pazopanib_pdgfr.brain_penetration*weights.five) +
+              (pazopanib_pdgfr.fda_approve*weights.ten) +
+              (pazopanib_pdgfr.clonality*weights.five) +
+              (pazopanib_pdgfr.varient_tier*weights.three) +
+              (pazopanib_pdgfr.clinical_trial*weights.twenty)
 
 
   return score

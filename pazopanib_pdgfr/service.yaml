@@ -1,16 +1,16 @@
 openapi: 3.0.2
 info:
   version: '0.1'
-  title: 'CNS_TAP_PAZOPANIB_FDGFR'
-  description: CNS_TAP_PAZOPANIB_FDGFR
+  title: 'CNS_TAP_pazopanib_pdgfr'
+  description: CNS_TAP_pazopanib_pdgfr
 servers:
-  - url: /99999/pazopanib_fdgfr
-    description: CNS_TAP_PAZOPANIB_FDGFR
+  - url: /99999/pazopanib_pdgfr
+    description: CNS_TAP_pazopanib_pdgfr
 paths:
   /cnstap:
     post:
-      description: cns_tap_pazopanib_fdgfr
-      operationId: cns_tap_pazopanib_fdgfr
+      description: cns_tap_pazopanib_pdgfr
+      operationId: cns_tap_pazopanib_pdgfr
       requestBody:
         description: inputs
         required: true
