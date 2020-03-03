@@ -1,16 +1,16 @@
 openapi: 3.0.2
 info:
   version: '0.1'
-  title: 'CNS_TAP_Alectinib'
-  description: CNS_TAP_Alectinib
+  title: 'CNS_TAP_Debio_1347'
+  description: CNS_TAP_Debio_1347
 servers:
-  - url: /99999/Alectinib
-    description: CNS_TAP_Alectinib
+  - url: /99999/Debio_1347
+    description: CNS_TAP_Debio_1347
 paths:
   /cnstap:
     post:
-      description: cns_tap_Alectinib
-      operationId: cns_tap_Alectinib
+      description: cns_tap_Debio_1347
+      operationId: cns_tap_Debio_1347
       requestBody:
         description: inputs
         required: true

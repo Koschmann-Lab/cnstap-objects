@@ -1,9 +1,9 @@
 {
-    "@id": "99999-Alectinib",
+    "@id": "99999-Debio_1347",
     "@type": "koio:KnowledgeObject",
-    "identifier": "ark:/99999/Alectinib",
+    "identifier": "ark:/99999/Debio_1347",
     "version": "1.0.0",
-    "title": "CNS_TAP Alectinib",
+    "title": "CNS_TAP Debio_1347",
     "contributors": "Kgrid Team",
     "description": "Knowledge Object Description",
     "keywords": [

@@ -16,7 +16,7 @@ function cnstap(inputs){
     "twenty":20
   }
 
-  var Alectinib = {
+  var Debio_1347 = {
       "tumor_in_vitro":2,
       "tumor_in_vivo":2,
       "phase_one":2,
@@ -28,22 +28,22 @@ function cnstap(inputs){
       "clinical_trial":0
   }
 
-  Alectinib.clonality = gi1
-  Alectinib.varient_tier = gi2
-  Alectinib.clinical_trial = gi3
+  Debio_1347.clonality = gi1
+  Debio_1347.varient_tier = gi2
+  Debio_1347.clinical_trial = gi3
 
-  var score = (Alectinib.tumor_in_vitro*weights.two) +
-              (Alectinib.tumor_in_vivo*weights.three) +
-              (Alectinib.phase_one*weights.three) +
-              (Alectinib.cns_data_response*weights.five) +
-              (Alectinib.brain_penetration*weights.five) +
-              (Alectinib.fda_approve*weights.ten) +
-              (Alectinib.clonality*weights.five) +
-              (Alectinib.varient_tier*weights.three) +
-              (Alectinib.clinical_trial*weights.twenty)
+  var score = (Debio_1347.tumor_in_vitro*weights.two) +
+              (Debio_1347.tumor_in_vivo*weights.three) +
+              (Debio_1347.phase_one*weights.three) +
+              (Debio_1347.cns_data_response*weights.five) +
+              (Debio_1347.brain_penetration*weights.five) +
+              (Debio_1347.fda_approve*weights.ten) +
+              (Debio_1347.clonality*weights.five) +
+              (Debio_1347.varient_tier*weights.three) +
+              (Debio_1347.clinical_trial*weights.twenty)
 
 
   return score
-  // return drugs["Alectinib"]["tumor_in_vitro"]
+  // return drugs["Debio_1347"]["tumor_in_vitro"]
   // return "Welcome to Knowledge Grid, " + " " + outputs["test"] + " " + outputs["test2"]
 }
