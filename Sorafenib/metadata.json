@@ -1,0 +1,21 @@
+{
+    "@id": "99999-Sorafenib",
+    "@type": "koio:KnowledgeObject",
+    "identifier": "ark:/99999/Sorafenib",
+    "version": "1.0.0",
+    "title": "CNS_TAP Sorafenib",
+    "contributors": "Kgrid Team",
+    "description": "Knowledge Object Description",
+    "keywords": [
+        "knowledge",
+        "object"
+    ],
+    "hasServiceSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
+    "hasPayload": [
+        "src/index.js"
+    ],
+    "@context": [
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+    ]
+}

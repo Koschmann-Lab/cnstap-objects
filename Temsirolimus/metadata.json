@@ -1,0 +1,21 @@
+{
+    "@id": "99999-Temsirolimus",
+    "@type": "koio:KnowledgeObject",
+    "identifier": "ark:/99999/Temsirolimus",
+    "version": "1.0.0",
+    "title": "CNS_TAP Temsirolimus",
+    "contributors": "Kgrid Team",
+    "description": "Knowledge Object Description",
+    "keywords": [
+        "knowledge",
+        "object"
+    ],
+    "hasServiceSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
+    "hasPayload": [
+        "src/index.js"
+    ],
+    "@context": [
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+    ]
+}
