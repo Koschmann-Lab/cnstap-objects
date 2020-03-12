@@ -6,7 +6,7 @@ function intrinsicDrugTable(inputs){
 
   var IDT = [
   MK2206={
-    "pathway":AKT,
+    "pathway":"AKT",
     "tumor_in_vitro":4,
     "tumor_in_vivo":6,
     "phase_one_safety_data":6,
@@ -16,7 +16,7 @@ function intrinsicDrugTable(inputs){
     "total_points":16,
   },
   Perifosine={
-    "pathway":AKT,
+    "pathway":"AKT",
     "tumor_in_vitro":2,
     "tumor_in_vivo":0,
     "phase_one_safety_data":6,
@@ -26,7 +26,7 @@ function intrinsicDrugTable(inputs){
     "total_points":8,
   },
   Ceritinib={
-    "pathway":AKT,
+    "pathway":"AKT",
     "tumor_in_vitro":2,
     "tumor_in_vivo":0,
     "phase_one_safety_data":6,
