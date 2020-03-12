@@ -5,7 +5,7 @@ function intrinsicDrugTable(inputs){
   var PW = inputs.pathway;
 
   var IDT = [
-  0={
+  MK2206={
     "drug_name":"MK2206"
     "pathway":"AKT",
     "tumor_in_vitro":4,
@@ -16,7 +16,7 @@ function intrinsicDrugTable(inputs){
     "fda_approval":0,
     "total_points":16,
   },
-  1={
+  Perifosine={
     "drug_name":"Perifosine"
     "pathway":"AKT",
     "tumor_in_vitro":2,
@@ -27,7 +27,7 @@ function intrinsicDrugTable(inputs){
     "fda_approval":0,
     "total_points":8,
   },
-  2={
+  Ceritinib={
     "drug_name":"Ceritinib"
     "pathway":"ALK",
     "tumor_in_vitro":2,
