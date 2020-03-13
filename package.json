@@ -1,0 +1,19 @@
+{
+  "name": "cnstap",
+  "version": "1.0.0",
+  "description": "The collection of knowledged objects developed for CNS-TAP Project",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "cns-tap"
+  ],
+  "author": "KGrid Team",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "rewire": "^5.0.0"
+  }
+}
