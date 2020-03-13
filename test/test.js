@@ -4,7 +4,7 @@ var rewire = require('rewire');
 var javascript = rewire("../collection/intrinsicDrugTable/src/index");
 var table = javascript.__get__("intrinsicDrugTable");
 
-var input = {}
+var input = {"pathway":""}
 
 test('Normal Input', () => {
 

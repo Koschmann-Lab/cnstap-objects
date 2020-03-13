@@ -5,8 +5,8 @@ function intrinsicDrugTable(inputs){
   var PW = inputs.pathway;
 
   var IDT = [
-  MK2206={
-    "drug_name":"MK2206"
+  MK2206 = {
+    "drug_name":"MK2206",
     "pathway":"AKT",
     "tumor_in_vitro":4,
     "tumor_in_vivo":6,
@@ -16,8 +16,8 @@ function intrinsicDrugTable(inputs){
     "fda_approval":0,
     "total_points":16,
   },
-  Perifosine={
-    "drug_name":"Perifosine"
+  Perifosine = {
+    "drug_name":"Perifosine",
     "pathway":"AKT",
     "tumor_in_vitro":2,
     "tumor_in_vivo":0,
@@ -27,8 +27,8 @@ function intrinsicDrugTable(inputs){
     "fda_approval":0,
     "total_points":8,
   },
-  Ceritinib={
-    "drug_name":"Ceritinib"
+  Ceritinib = {
+    "drug_name":"Ceritinib",
     "pathway":"ALK",
     "tumor_in_vitro":2,
     "tumor_in_vivo":0,
@@ -41,7 +41,7 @@ function intrinsicDrugTable(inputs){
 
   var RESPONSE;
 
-  if (pathway = "") {RESPONSE = IDT;} else {RESPONSE = IDT.filter(object => return object.pathway === PW)}
+  if (PW === "") {RESPONSE = IDT;} else {RESPONSE = IDT.filter(object => {return object.pathway === PW})}
 
   return RESPONSE
   // return table of information
