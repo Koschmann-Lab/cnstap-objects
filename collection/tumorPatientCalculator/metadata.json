@@ -1,5 +1,5 @@
 {
-    "@id": "99999-Sunitinib",
+    "@id": "99999-tumorPatientCalculator",
     "@type": "koio:KnowledgeObject",
     "identifier": "ark:/99999/tumorPatientCalculator",
     "version": "1.0.0",

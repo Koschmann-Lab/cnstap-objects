@@ -35,17 +35,17 @@ components:
   schemas:
     input:
       required:
+        - pathway
         - percent_tumor
         - parsons_score
-        - trial_considered
       properties:
+        pathway:
+          type: string
+          example: ALK
         percent_tumor:
           type: integer
           example: 0
         parsons_score:
-          type: integer
-          example: 0
-        trial_considered:
           type: integer
           example: 0
         # patient.features:

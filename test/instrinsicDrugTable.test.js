@@ -4,11 +4,36 @@ var rewire = require('rewire');
 var javascript = rewire("../collection/intrinsicDrugTable/src/index");
 var table = javascript.__get__("intrinsicDrugTable");
 
-var input = {"pathway":""}
+// TEST 1 - Full Drug Table
+// var input = {"pathway":""}
+
+// test('Normal Input', () => {
+//
+//   var result = table(input);
+//   console.log(JSON.stringify(result, undefined, 2));
+//
+// });
+
+// TEST 2 - Pathway "ALK"; clonality = 1; varient_tier = 2
+var input = {"pathway":"ALK"}
 
 test('Normal Input', () => {
 
-  var result = table(input);
-  console.log(JSON.stringify(result, undefined, 2));
+    // shows the corresponding drugs to pathway
+    var result = table(input);
+    console.log(JSON.stringify(result, undefined, 2));
+
+    for (index = 0; index < result.length; index++) {
+
+      console.log(JSON.stringify(result[index], undefined, 2));
+
+      // new total = previous total + clonality*weight + varient_tier*weight
+      result[index].total_points = result[index].total_points + 1*5 + 2*3;
+
+      var score = result[index].total_points;
+      console.log(JSON.stringify(result[index].drug_name))
+      console.log(JSON.stringify(result[index].total_points));
+
+    }
 
 });
