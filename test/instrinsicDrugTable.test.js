@@ -23,16 +23,16 @@ test('Normal Input', () => {
     var result = table(input);
     console.log(JSON.stringify(result, undefined, 2));
 
-    for (index = 0; index < result.length; index++) {
+    for(var i in result){
 
-      console.log(JSON.stringify(result[index], undefined, 2));
+      console.log(JSON.stringify(result[i], undefined, 2));
 
       // new total = previous total + clonality*weight + varient_tier*weight
-      result[index].total_points = result[index].total_points + 1*5 + 2*3;
+      result[i].total_points = result[i].total_points + 1*5 + 2*3;
 
-      var score = result[index].total_points;
-      console.log(JSON.stringify(result[index].drug_name))
-      console.log(JSON.stringify(result[index].total_points));
+      var score = result[i].total_points;
+      console.log(JSON.stringify(result[i].drug_name))
+      console.log(JSON.stringify(result[i].total_points));
 
     }
 
