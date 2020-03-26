@@ -31,7 +31,7 @@ test('Normal Input', () => {
       result[i].total_points = result[i].total_points + 1*5 + 2*3;
 
       var score = result[i].total_points;
-      console.log(JSON.stringify(result[i].drug_name))
+      console.log(JSON.stringify(result[i].drug_name));
       console.log(JSON.stringify(result[i].total_points));
 
     }
