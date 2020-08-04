@@ -22,7 +22,7 @@ myfirstKO\
 Every KO has:
 a metadata.json file with descriptive information
 a service.yaml file describing an API service in the OpenAPI 3.0 format
-a deployment.yaml file specifying the runtime environment(s), the entry point, etc.
+a deployment.yaml file specifying the runtime environment(s), the function point, etc.
 
 Every KO also has one or more payload files. The payload files contain structured data that is machine-processable or software code that is machine-executable, or both. Generally, Payloads, whether in one or multiple files, represent biomedical knowledge that has been established through prior empirical analytical or deliberative procedures.
 

@@ -1,5 +1,5 @@
 endpoints:
   /intrinsicDrugTable:
-    adapterType: JAVASCRIPT
+    adapter: JAVASCRIPT
     artifact: src/index.js
-    entry: intrinsicDrugTable
+    function: intrinsicDrugTable

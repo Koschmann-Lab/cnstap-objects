@@ -624,8 +624,14 @@ function intrinsicDrugTable(inputs){
 
   var RESPONSE;
 
-  if (PW === "") {RESPONSE = IDT;} else {RESPONSE = IDT.filter(object => {return object.pathway === PW})}
+  if (PW === "") {
+    RESPONSE = IDT;
+  } else {
+    RESPONSE = IDT.filter(function(object) {
+      return object.pathway === PW ;
+    })
+  }
 
-  return RESPONSE
+  return RESPONSE;
   // return table of information
 }

@@ -4,7 +4,7 @@ function cnstap(inputs){
   var gi1 = inputs.percent_tumor
   var gi2 = inputs.parsons_score
 
-  const weights={
+  var weights={
     clonality:5,
     tierscore:3
   }
