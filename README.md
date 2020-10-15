@@ -1,4 +1,11 @@
 # cnstap-objects
+
+OCTOBER 2020 KNOWLEDGE OBJECT UPDATES FOR CNS-TAP OBJECTS
+
+Activator Version Used is:   1.3.6
+
+Runtime Used: "V8"  (JavaScript runtime called V8)
+
 The Knowledge Objects in this repository collection are for the 2020 CNS-TAP web application development project at the University of Michigan Medical School.
 
 The purpose of the 2020 CNS-TAP web application development project is develop a manageable, extensible computable biomedical knowledge system to support research and clinical trials in neuro-oncology.
