@@ -7,16 +7,16 @@ info:
      name: GNU General Public License v3 (GPL-3)
      url: >-
        https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
-   contact:
-     name: KGrid Team
-     email: kgrid-developers@umich.edu
-     url: 'http://kgrid.org'
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
-  - url: /CNSTAPIDT/intrinsicDrugTable/v2.0
+  - url: /CNSTAPIDT/intrinsicDrugTable/2.0
     description: Intrinsic Drug Table values for CNS-TAP
 tags:
-- name: KO Endpoints
-  description: CNSTAPIDT Endpoints
+  - name: KO Endpoints
+    description: CNSTAPIDT Endpoints
 paths:
   /intrinsicDrugTable:
     post:
@@ -58,6 +58,6 @@ components:
         - result
       properties:
         result:
-        type: object
-        additionalProperties:
           type: object
+          additionalProperties:
+            type: object

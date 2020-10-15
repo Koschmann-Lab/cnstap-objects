@@ -631,7 +631,6 @@ function intrinsicDrugTable(inputs){
       return object.pathway === PW ;
     })
   }
-
-  return RESPONSE;
+  return JSON.stringify(RESPONSE);
   // return table of information
 }

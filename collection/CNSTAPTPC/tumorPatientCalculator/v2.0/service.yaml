@@ -12,7 +12,7 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /CNSTAPTPC/tumorPatientCalculator/v2.0
+  - url: /CNSTAPTPC/tumorPatientCalculator/2.0
     description: Patient Specific weights for CNS-TAP
 tags:
 - name: KO Endpoints
