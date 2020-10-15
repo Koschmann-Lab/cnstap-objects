@@ -1,5 +1,0 @@
-endpoints:
-  /cnstap:
-    adapter: JAVASCRIPT
-    artifact: src/index.js
-    function: cnstap

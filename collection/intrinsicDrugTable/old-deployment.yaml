@@ -1,5 +1,0 @@
-endpoints:
-  /intrinsicDrugTable:
-    adapter: JAVASCRIPT
-    artifact: src/index.js
-    function: intrinsicDrugTable
