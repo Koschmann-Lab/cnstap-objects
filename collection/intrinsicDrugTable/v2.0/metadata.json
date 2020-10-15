@@ -1,0 +1,19 @@
+{
+    "@id": "CNSTAPIDT/intrinsicDrugTable/v2.0",
+    "@type": "koio:KnowledgeObject",
+    "title": "CNS_TAP Intrinsic Drug Table",
+    "identifier": "ark:/CNSTAPIDT/intrinsicDrugTable/v2.0",
+    "version": "v2.0",
+    "description": "Intrinsic Drug Table values for CNS-TAP",
+    "contributors": "Kgrid Team",
+        "keywords": [
+        "knowledge",
+        "object"
+    ],
+    "hasServiceSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
+    "hasPayload": "src/index.js",
+    "@context": [
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+    ]
+}
