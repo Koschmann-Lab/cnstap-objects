@@ -1,0 +1,5 @@
+endpoints:
+  /cnstap:
+    artifact: src/index.js
+    adapter: V8
+    function: cnstap
