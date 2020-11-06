@@ -33,7 +33,7 @@ function intrinsicDrugTable(inputs){
     "cns":0,
     "bbb":0,
     "fda":0,
-    "subt":16,
+    "subt":8,
     "icln":0,
     "itier":0,
     "itrl":0,
