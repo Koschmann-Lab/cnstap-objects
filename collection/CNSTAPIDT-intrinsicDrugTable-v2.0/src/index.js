@@ -126,10 +126,10 @@ function intrinsicDrugTable(inputs){
     "pathways": "MEK", "drugagents": "Trametinib", "vitro": 2, "vivo": 3, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total":33 , "editable": 1,
   },
   Selumetinib = {
-    "pathways": "MEK", "drugagents": "Selumetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 0, "bbb": 0, "fda": 10, "subt": 14, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 14, "editable": 0,
+    "pathways": "MEK", "drugagents": "Selumetinib", "vitro": 4, "vivo": 3, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt": 38, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 0,
   },
   Cobimetinib = {
-    "pathways": "MEK", "drugagents": "Cobimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 0, "bbb": 5, "fda": 0, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
+    "pathways": "MEK", "drugagents": "Cobimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 0, "bbb": 5, "fda": 10, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
   },
   Binimetinib = {
     "pathways": "MEK", "drugagents": "Binimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
@@ -166,6 +166,9 @@ function intrinsicDrugTable(inputs){
   },
   LY3023414 = {
     "pathways": "PI3K/mTOR", "drugagents": "LY3023414", "vitro": 4, "vivo": 3, "safety": 0, "cns": 5, "bbb": 5, "fda": 0, "subt": 17, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 17, "editable": 0,
+  },
+  Copanlisib = {
+    "pathways": "PI3K/mTOR", "drugagents": "Copanlisib", "vitro": 4, "vivo": 3, "safety": 3, "cns": 0, "bbb": 0, "fda": 10, "subt": 20, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 20, "editable": 0,
   },
   Crizotinib = {
     "pathways": "MET", "drugagents": "Crizotinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 31, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 1,
@@ -205,6 +208,9 @@ function intrinsicDrugTable(inputs){
   },
   BLU_667 = {
     "pathways": "RET", "drugagents": "BLU-667", "vitro": 2, "vivo": 3, "safety": 0, "cns": 5, "bbb": 0, "fda": 0, "subt": 10, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 10, "editable": 0,
+  },
+  Immune_Checkpoint_Inhibitors = {
+    "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   }
 ]
   ;
