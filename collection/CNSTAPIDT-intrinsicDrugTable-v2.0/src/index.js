@@ -210,7 +210,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "RET", "drugagents": "BLU-667", "vitro": 2, "vivo": 3, "safety": 0, "cns": 5, "bbb": 0, "fda": 0, "subt": 10, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 10, "editable": 0,
   },
   Immune_Checkpoint_Inhibitors = {
-    "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
+    "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
   }
 ]
   ;
