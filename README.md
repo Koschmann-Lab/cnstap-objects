@@ -19,11 +19,11 @@ myfirstKO\
 |--service.yaml\
 |--deployment.yaml\
 |--src\
-&nbsp;&nbsp;&nbsp;|--payload_file_1\
-&nbsp;&nbsp;&nbsp;.\
-&nbsp;&nbsp;&nbsp;.\
-&nbsp;&nbsp;&nbsp;.\
-&nbsp;&nbsp;&nbsp;|-payload_file_n
+|--payload_file_1\
+.\
+.\
+.\
+|-payload_file_n
 
 
 Every KO has:
@@ -40,22 +40,22 @@ dasatanib             <-- chemotherapy drug name\
 |--service.yaml\
 |--deployment.yaml\
 |--src\
-&nbsp;&nbsp;&nbsp;&nbsp;|--index.js
+|--index.js
 
 The payload file of each KO in this class combines structured data and software code represented using the JavaScript programming language.
 
 The structured data in each KO is two-fold. Along with a set of weights (not shown), there is in each KO a drug-specific set of 6 chemotherapy drug facts and 3 patient-specific characteristics represented in a variable object with 9 overall features like this one for dasatanib:
 
 var dasatinib = {\
-&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vitro":2,    &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vivo":2,     &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"phase_one":2,         &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"cns_data_response":1, &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"brain_penetration":2, &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"fda_approve":1,       &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"clonality":0,         &nbsp;&nbsp;&nbsp;&nbsp; #patient-specific characteristic\
-&nbsp;&nbsp;&nbsp;&nbsp;"varient_tier":0,      &nbsp;&nbsp;&nbsp;&nbsp; #patient-specific characteristic\
-&nbsp;&nbsp;&nbsp;&nbsp;"clinical_trial":0     &nbsp;&nbsp;&nbsp;&nbsp; #patient-specific characteristic\
+"tumor_in_vitro":2,     #drug fact\
+"tumor_in_vivo":2,      #drug fact\
+"phase_one":2,          #drug fact\
+"cns_data_response":1,  #drug fact\
+"brain_penetration":2,  #drug fact\
+"fda_approve":1,        #drug fact\
+"clonality":0,          #patient-specific characteristic\
+"varient_tier":0,       #patient-specific characteristic\
+"clinical_trial":0      #patient-specific characteristic\
 }
 
 The purpose of each drug-specific KO is to have an externalized, encapsulated, well-described, robust, shareable programmatic method for computing a chemotherapy drug and patient-specific utility score based on the drug facts and patient-specific characteristics listed above.
@@ -65,17 +65,17 @@ The patient-specific inputs and the outputs from these KOs are detailed in the s
 
 # Intrinsic Drug Table
 The KO named "intrinsicDrugTable" is a special KO that outputs a table containing all of the “intrinsic” drug information for all drugs. Example shown below:
-...
+```
 Dasatinib = {\
-&nbsp;&nbsp;&nbsp;&nbsp;"**drug_name**":"Dasatinib",    &nbsp;&nbsp;&nbsp;&nbsp; #drug name\
-&nbsp;&nbsp;&nbsp;&nbsp;"**pathway**":"PDGFR",    &nbsp;&nbsp;&nbsp;&nbsp; #drug pathway\  
-&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vitro":4,   &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"tumor_in_vivo":6,    &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"phase_one_**safety_data**":6,    &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"cns_data_**with_**response":5,   &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"brain_penetration":10,   &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"fda_approv**al**":10,    &nbsp;&nbsp;&nbsp;&nbsp; #drug fact\
-&nbsp;&nbsp;&nbsp;&nbsp;"**total_points**":41,    &nbsp;&nbsp;&nbsp;&nbsp; #total points\
+"**drug_name**":"Dasatinib",    #drug name\
+"**pathway**":"PDGFR",     #drug pathway\  
+"tumor_in_vitro":4,    #drug fact\
+"tumor_in_vivo":6,     #drug fact\
+"phase_one_**safety_data**":6,     #drug fact\
+"cns_data_**with_**response":5,    #drug fact\
+"brain_penetration":10,    #drug fact\
+"fda_approv**al**":10,     #drug fact\
+"**total_points**":41,     #total points\
 },
 Pazopanib_PDGFR = {
    "drug_name":"Pazopanib_PDGFR",
@@ -88,4 +88,97 @@ Pazopanib_PDGFR = {
    "fda_approval":10,
    "total_points":36,
  },
-...
+```
+
+
+# Changes to two CNS-TAP Knowledge Objects:
+
+
+- Clone repository into local machine
+
+  `git clone https://github.com/kgrid-objects/cnstap-objects.git`
+
+- The objects are located within the collection folder.
+
+
+- Update code in an text editor, e.g., Atom
+
+
+## CNSTAPIDT-intrinsicDrugTable-v2.0; ADD A NEW DRUG
+
+Before:
+
+```
+Sunitinib = {
+  "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
+},
+```
+
+After:
+
+```
+Sunitinib = {
+  "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
+},
+Immune_Checkpoint_Inhibitors = {
+  "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+},
+```
+
+## CNSTAPIDT-intrinsicDrugTable-v2.0: CHANGE INFORMATION FOR AN EXISTING DRUG
+
+Before:
+
+```
+Sunitinib = {
+  "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 3, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 30, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 30, "editable": 0,
+},
+
+```
+
+After:
+```
+Sunitinib = {
+  "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
+},
+```
+
+
+## CNSTAPTPC-tumorPatientCalculator-v2.0: CHANGE WEIGHTS
+
+Before:
+```
+var weights={
+  clonalityweight:8,
+  tierscoreweight:3,
+  trialweight:20,
+
+}
+```
+
+After:
+```
+var weights={
+  clonalityweight:5,
+  tierscoreweight:3,
+  trialweight:20,
+
+}
+```
+
+- Update version number within the @id, identifier, and version sections of the metadata.json file
+
+
+- Save and then go to the command line (Apple Mac Terminal) in the collection folder
+
+
+- Run `kgrid package-all`
+
+  Note: Kgrid CLI is needed to run this command. If it is not installed, run the this: `npm i @kgrid/cli -g`
+
+
+- Then run `kgrid create-manifest`
+
+- Push KO file changes to github
+
+- Copy 3 files into github release section and upload
