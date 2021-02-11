@@ -96,14 +96,13 @@ Pazopanib_PDGFR = {
 From time to time, it is necessary to update the drug agent related content of the CNS-TAP application. This drug agent related content can be updated WITHOUT having to change the code of the CNS-TAP app. To update this content, the following process can be followed. The process involves editing the content (or "payload") of two knowledge object used by the CNS-TAP app. The two Knowledge Objects are called, intrinsicDrugTable and tumorPatientCalculator. Here's how to edit these objects:
 
 
-- Clone repository into local machine
+- From the command line of your local machine, clone repository into your local machine using this command:
 
   `git clone https://github.com/kgrid-objects/cnstap-objects.git`
 
-- The objects are located within the collection folder.
+- To find one or both the Knowledge Objects needing to be changed, look in the collection folder.
 
-
-- Update code in an text editor, e.g., Atom
+- Update the contents of the Knowledge Object in any text editor of your choice, e.g., Atom (www.atom.io)
 
 
 ## CNSTAPIDT-intrinsicDrugTable-v2.0; ADD A NEW DRUG
