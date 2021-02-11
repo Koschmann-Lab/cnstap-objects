@@ -104,6 +104,7 @@ From time to time, it is necessary to update the drug agent related content of t
 
 - Update the contents of the Knowledge Object in any text editor of your choice, e.g., Atom (www.atom.io)
 
+Next, three examples are given of making changes. The first two examples show changes made to the instrinsicDrugTable Knowledge Object. The final example shows changes made to the tumorPatientCalculator Knowledge Object. These changes are the anticipated types of changes that can be made without necessitating changes to the CNS-TAP app. 
 
 ## CNSTAPIDT-intrinsicDrugTable-v2.0; ADD A NEW DRUG
 
