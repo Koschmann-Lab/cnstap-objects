@@ -91,7 +91,9 @@ Pazopanib_PDGFR = {
 ```
 
 
-# Changes to two CNS-TAP Knowledge Objects:
+# Making Changes to two CNS-TAP Knowledge Objects:
+
+From time to time, it is necessary to update the drug agent related content of the CNS-TAP application. This drug agent related content can be updated WITHOUT having to change the code of the CNS-TAP app. To update this content, the following process can be followed. The process involves editing the content (or "payload") of two knowledge object used by the CNS-TAP app. The two Knowledge Objects are called, intrinsicDrugTable and tumorPatientCalculator. Here's how to edit these objects:
 
 
 - Clone repository into local machine
