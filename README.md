@@ -1,5 +1,7 @@
 # cnstap-objects
 
+![Versioning](versioning.png)
+
 OCTOBER 2020 KNOWLEDGE OBJECT UPDATES FOR CNS-TAP OBJECTS
 
 Activator Version Used is:   1.3.6
