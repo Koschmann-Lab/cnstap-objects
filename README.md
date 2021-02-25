@@ -1,6 +1,6 @@
 # cnstap-objects
 
-![Versioning](versioning.png)
+![Versioning](Versioning.png)
 
 OCTOBER 2020 KNOWLEDGE OBJECT UPDATES FOR CNS-TAP OBJECTS
 
