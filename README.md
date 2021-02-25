@@ -168,19 +168,25 @@ var weights={
 }
 ```
 
+After making changes in the src code for either of the knowledge objects, you will need to take the following steps to ensure that this code is correctly pushed and deployed onto the web. The first step ensures that the version of the code is updated everytime a new change is made:
+
 - Update version number within the @id, identifier, and version sections of the metadata.json file
 
+Once you're done updating the versioning numbers, you're all set with regards to making changes to the actual code. Now, make sure to save the file and then open up the command line and follow the following steps:
 
 - Save and then go to the command line (Apple Mac Terminal) in the collection folder
 
-
 - Run `kgrid package-all`
 
-  Note: Kgrid CLI is needed to run this command. If it is not installed, run the this: `npm i @kgrid/cli -g`
+  Note: Kgrid CLI is needed to run this command. If it is not installed, then run this: `npm i @kgrid/cli -g`
 
 
 - Then run `kgrid create-manifest`
 
+Now that you have run this command, you will then need to make sure that the changes you made on your local machine are pushed to github so that they can be deployed. Follow the next few steps to do this:
+
 - Push KO file changes to github
 
-- Copy 3 files into github release section and upload
+- Copy 3 files (manifest.json and the 2 zip files that have the name of each of the 2 objects) into github release section and upload
+
+Now you are done and the changes should be reflected in the deployed app shortly
