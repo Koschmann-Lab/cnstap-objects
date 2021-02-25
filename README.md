@@ -202,8 +202,8 @@ The github release section can be found on the right side of the repository belo
 
 ![alt text](https://github.com/kgrid-objects/cnstap-objects/blob/master/images/Releasepart1.png)
 
-Then click on edit release and replace the 3 files with the 3 new files as depicted below
+Then click on 'edit release' and replace the 3 files with the 3 new files as depicted below
 
 ![alt text](https://github.com/kgrid-objects/cnstap-objects/blob/master/images/Releasepart2.png)
 
-- Finally, click 'update release' and you are done. The changes should be reflected in the deployed app shortly
+- Finally, click 'update release' at the bottom and you are done. The changes should be reflected in the deployed app shortly
