@@ -87,7 +87,11 @@ To update this content, the following process can be followed.
 
 The process will require downloading KOs from this GitHub repository, changing the content of those KOs, updating the version(s) of the KOs that are changed, packaging the KOs using special software, pushing the updated KOs back to GitHub, and then, finally, releasing the updated KOs in GitHub.
 
-The process involves editing the content (or "payload") of two knowledge object used by the CNS-TAP app. The two Knowledge Objects are called, intrinsicDrugTable and tumorPatientCalculator. Here's how to edit these objects:
+The process involves editing the content of one or both of the two KOs used by the CNS-TAP app. As described above, the two KOs are called, intrinsicDrugTable and tumorPatientCalculator. 
+
+Here are the steps to follow to download, edit, package, upload, and release these KOs:
+
+DOWNLOADING KOs from GitHub
 
 - From the command line of your local machine, clone repository into your local machine using this command:
 
@@ -95,21 +99,24 @@ The process involves editing the content (or "payload") of two knowledge object 
 
 - To find one or both the Knowledge Objects needing to be changed, look in the collection folder.
 
+
+EDITING KOs
+
 - Update the contents of the Knowledge Object in any text editor of your choice, e.g., Atom (www.atom.io)
 
 Next, three examples are given of making changes. The first two examples show changes made to the instrinsicDrugTable Knowledge Object. The final example shows changes made to the tumorPatientCalculator Knowledge Object. These changes are the anticipated types of changes that can be made without necessitating changes to the CNS-TAP app. 
 
-## CNSTAPIDT-intrinsicDrugTable-v2.0; ADD A NEW DRUG
+## ADD A NEW DRUG to the CNSTAPIDT-intrinsicDrugTable KO
 
-Before:
+Before.  Here is an example of what could be the LAST drug entry in the list of drugs in the called "index.js" within the SRC folder of the KO.
 
 ```
 Sunitinib = {
   "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
-},
+}
 ```
 
-After:
+After. A new drug entry for "Immune_Checkpoint_Inhibitors" has been added. Note that a comma (,) has been added after the Sunitinib entry.
 
 ```
 Sunitinib = {
@@ -117,7 +124,7 @@ Sunitinib = {
 },
 Immune_Checkpoint_Inhibitors = {
   "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
-},
+}
 ```
 
 ## CNSTAPIDT-intrinsicDrugTable-v2.0: CHANGE INFORMATION FOR AN EXISTING DRUG
