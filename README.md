@@ -108,8 +108,9 @@ Next, three examples are given of making changes. The first two examples show ch
 
 ## ADD A NEW DRUG to the CNSTAPIDT-intrinsicDrugTable KO
 
-Before.  Here is an example of what could be the LAST drug entry in the list of drugs in the called "index.js" within the SRC folder of the KO.
+Here is an example of what could be the LAST drug entry in the list of drugs in the called "index.js" within the SRC folder of the KO.
 
+Before
 ```
 Sunitinib = {
   "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
@@ -118,6 +119,13 @@ Sunitinib = {
 
 After. A new drug entry for "Immune_Checkpoint_Inhibitors" has been added. Note that a comma (,) has been added after the Sunitinib entry.
 
+Newly Added Content
+```,
+Immune_Checkpoint_Inhibitors = {
+  "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+}
+```
+After
 ```
 Sunitinib = {
   "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
