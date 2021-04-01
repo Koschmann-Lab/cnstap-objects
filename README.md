@@ -89,7 +89,7 @@ The process will require downloading KOs from this GitHub repository, changing t
 
 The process involves editing the content of one or both of the two KOs used by the CNS-TAP app. As described above, the two KOs are called, intrinsicDrugTable and tumorPatientCalculator. 
 
-Here are the steps to follow to download, edit, package, upload, and release these KOs:
+Here are the steps to follow to download, edit, update version(s), package, upload, and release these KOs:
 
 DOWNLOADING KOs from GitHub
 
@@ -174,6 +174,8 @@ var weights={
 }
 ```
 
+UPDATING KO VERSION(S)
+
 After making changes in the src code for either of the knowledge objects, you will need to take the following steps to ensure that this code is correctly pushed and deployed onto the web. The first step ensures that the version of the code is updated everytime a new change is made:
 
 - Update version number within the @id, identifier, and version sections of the metadata.json file
@@ -182,7 +184,11 @@ Here is a picture of the metadata.json file which is where you can update versio
 
 ![alt text](https://github.com/kgrid-objects/cnstap-objects/blob/master/images/Versioning.png)
 
-Once you're done updating the versioning numbers, you're all set with regards to making changes to the actual code. Now, make sure to save the file and then open up the command line and follow the following steps:
+Once you're done updating the versioning numbers, you're all set with regards to making changes to the actual KO content. 
+
+PACKAGING
+
+Now, make sure to save the file and then open up the command line and follow the following steps:
 
 - Save and then go to the command line (Apple Mac Terminal) in the collection folder
 
@@ -193,11 +199,15 @@ Once you're done updating the versioning numbers, you're all set with regards to
 
 - Then run `kgrid create-manifest`
 
+UPLOAD CHANGED AND RE-PACKAGED KOs TO GITHUB
+
 Now that you have run this command, you will then need to make sure that the changes you made on your local machine are pushed to github so that they can be deployed. Follow the next few steps to do this:
 
 - Push KO file changes to github
 
 - Copy 3 files (manifest.json and the 2 zip files that have the name of each of the 2 objects) into github release section and upload by replacing the existing 3 files with the new 3 files
+
+RELEASE UPDATED KOs ON GITHUB
 
 Here are pictures of the github release section on github and the name of the 3 files that need to be uploaded into the new release:
 
