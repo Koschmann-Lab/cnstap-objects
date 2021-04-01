@@ -1,16 +1,18 @@
 # cnstap-objects
 
-OCTOBER 2020 KNOWLEDGE OBJECT UPDATES FOR CNS-TAP OBJECTS
+Last Updated:   April 1, 2021
 
-Activator Version Used is:   1.3.6
+KGrid Activator Version Used is:   1.3.6
 
 Runtime Used: "V8"  (JavaScript runtime called V8)
 
-The Knowledge Objects in this repository collection are for the 2020 CNS-TAP web application development project at the University of Michigan Medical School.
+## These Instructions are Primarily for Updating the Knowledge Objects that Provide Scientific Information for the CNS-TAP web app
 
-The purpose of the 2020 CNS-TAP web application development project is develop a manageable, extensible computable biomedical knowledge system to support research and clinical trials in neuro-oncology.
+The Knowledge Objects in this repository collection are for the CNS-TAP Version 1.0 web application developed at the University of Michigan Medical School.
 
-This project requires a class of KOs that, when their payloads are executed, will enable computation of drug-specific and patient-specific scores for a variety of chemotherapy agents (i.e., drugs or medications). These scores indicate the likely usefulness of various chemotherapy drugs for patients with brain tumors.
+The purpose of the CNS-TAP web application development project is to develop a manageable, extensible knowledge base to support the use of CNS-TAP in research and clinical trials in neuro-oncology.
+
+This project requires two different Knoweldge Objects (KOs) that, when uploaded into CNS-TAP, enable computation of drug-specific and patient-specific scores for a variety of chemotherapy agents (i.e., drugs or medications). These scores indicate the likely usefulness of various chemotherapy drugs for patients with brain tumors.
 
 From a file-system perspective, all KOs conform to the following hierarchical structure of folders and files:
 
