@@ -45,7 +45,6 @@ function intrinsicDrugTable(inputs){
   },
   Ceritinib = {
     "pathways":"ALK", "drugagents": "Ceritinib", "vitro": 2, "vivo": 0, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt":28, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 28, "editable": 1,
-
   },
   Alectinib = {
     "pathways": "ALK", "drugagents": "Alectinib", "vitro": 2, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 0, "subt":26, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 26, "editable": 0,
@@ -68,6 +67,9 @@ function intrinsicDrugTable(inputs){
   Ribociclib = {
     "pathways": "CDK", "drugagents": "Ribociclib", "vitro": 2, "vivo": 0, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 28, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 28, "editable": 0,
   },
+  Prexasertib = {
+    "pathways": "Chk1", "drugagents": "Prexasertib", "vitro": 2, "vivo": 6, "safety": 0, "cns": 0, "bbb": 0, "fda": 0, "subt": 8, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 8, "editable": 1,
+  },
   Lenalidomide = {
     "pathways": "CNS Generic", "drugagents": "Lenalidomide", "vitro": 2, "vivo": 0, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
   },
@@ -80,8 +82,11 @@ function intrinsicDrugTable(inputs){
   Erlotinib = {
     "pathways": "EGFR", "drugagents": "Erlotinib", "vitro": 4, "vivo": 0, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 20, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 20, "editable": 1,
   },
-  Osimertinib_Mesylate = {
-    "pathways": "EGFR", "drugagents": "Osimertinib Mesylate (AZD9291; Tagrisso)", "vitro": 2, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+  Osimertinib = {
+    "pathways": "EGFR", "drugagents": "Osimertinib", "vitro": 2, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+  },
+  Afatinib = {
+    "pathways": "EGFR", "drugagents": "Afatinib", "vitro": 4, "vivo": 6, "safety": 3, "cns": -10, "bbb": 0, "fda": 10, "subt": 13, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 0,
   },
   Pazopanib_FGFR = {
     "pathways": "FGFR", "drugagents": "Pazopanib (FGFR)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 5, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
@@ -95,11 +100,23 @@ function intrinsicDrugTable(inputs){
   Debio_1347 = {
     "pathways": "FGFR", "drugagents": "Debio 1347 (FGFR)", "vitro": 2, "vivo": 1, "safety": 0, "cns": 0, "bbb": 0, "fda": 0, "subt": 3, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 3, "editable": 0,
   },
-  Afatinib = {
-    "pathways": "EGFR/HER2/HER4/cMET", "drugagents": "Afatinib", "vitro": 4, "vivo": 6, "safety": 3, "cns": -10, "bbb": 0, "fda": 10, "subt": 13, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 1,
+  Etoposide = {
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Etoposide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+  },
+  Carboplatin = {
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Carboplatin", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
+  },
+  Irinotecan = {
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Irinotecan", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
+  },
+  CCNU = {
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "CCNU (lomustine)", "vitro": 4, "vivo": 3, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+  },
+  Temozolomide = {
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Temozolomide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Panobinostat = {
-    "pathways": "HDAC", "drugagents": "Panobinostat (LBH589)", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
+    "pathways": "HDAC", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
   },
   Vorinostat = {
     "pathways": "HDAC", "drugagents": "Vorinostat (SAHA)", "vitro": 2, "vivo": 6, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
@@ -114,7 +131,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "HDAC", "drugagents": "Valproic Acid", "vitro": 4, "vivo": 3, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
   },
   Alisertib = {
-    "pathways": "INI1", "drugagents": "Alisertib (MLN8237)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 0, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+    "pathways": "INI1", "drugagents": "Alisertib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 0, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
   },
   Tamoxifen = {
     "pathways": "INI1", "drugagents": "Tamoxifen", "vitro": 2, "vivo": 0, "safety": 0, "cns": 0, "bbb": 10, "fda": 10, "subt": 22, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 22, "editable": 0,
@@ -134,6 +151,12 @@ function intrinsicDrugTable(inputs){
   Binimetinib = {
     "pathways": "MEK", "drugagents": "Binimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
   },
+  Crizotinib = {
+    "pathways": "MET", "drugagents": "Crizotinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 31, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 1,
+  },
+  Cabozantinib = {
+    "pathways": "MET/VEGF2", "drugagents": "Cabozantinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 46, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 46, "editable": 1,
+  },
   Crenolanib = {
     "pathways": "PDGFR", "drugagents": "Crenolanib", "vitro": 2, "vivo": 0, "safety": 3, "cns": 0, "bbb": 0, "fda": 0, "subt": 5, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 5, "editable": 1,
   },
@@ -152,11 +175,17 @@ function intrinsicDrugTable(inputs){
   Sunitinib = {
     "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
   },
+  Immune_Checkpoint_Inhibitors = {
+    "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+  },
   BKM120 = {
     "pathways": "PI3K/mTOR", "drugagents": "BKM120 (Buparlisib)", "vitro": 4, "vivo": 6, "safety": 0, "cns": 0, "bbb": 5, "fda": 0, "subt": 15, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 15, "editable": 1,
   },
-  GDC_0084 = {
-    "pathways": "PI3K/mTOR", "drugagents": "GDC-0084 (PI3K Inhibitor)", "vitro": 4, "vivo": 0, "safety": 0, "cns": 10, "bbb": 10, "fda": 0, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
+  Copanlisib = {
+    "pathways": "PI3K/mTOR", "drugagents": "Copanlisib", "vitro": 4, "vivo": 3, "safety": 3, "cns": 0, "bbb": 0, "fda": 10, "subt": 20, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 20, "editable": 0,
+  },
+  Paxalisib = {
+    "pathways": "PI3K/mTOR", "drugagents": "Paxalisib (GDC_0084)", "vitro": 4, "vivo": 0, "safety": 0, "cns": 10, "bbb": 10, "fda": 0, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
   },
   Everolimus = {
     "pathways": "PI3K/mTOR", "drugagents": "Everolimus (PI3K)", "vitro": 2, "vivo": 0, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
@@ -166,33 +195,6 @@ function intrinsicDrugTable(inputs){
   },
   LY3023414 = {
     "pathways": "PI3K/mTOR", "drugagents": "LY3023414", "vitro": 4, "vivo": 3, "safety": 0, "cns": 5, "bbb": 5, "fda": 0, "subt": 17, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 17, "editable": 0,
-  },
-  Copanlisib = {
-    "pathways": "PI3K/mTOR", "drugagents": "Copanlisib", "vitro": 4, "vivo": 3, "safety": 3, "cns": 0, "bbb": 0, "fda": 10, "subt": 20, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 20, "editable": 0,
-  },
-  Crizotinib = {
-    "pathways": "MET", "drugagents": "Crizotinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 31, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 1,
-  },
-  Cabozantinib = {
-    "pathways": "MET/VEGF2", "drugagents": "Cabozantinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 46, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 46, "editable": 1,
-  },
-  Prexasertib = {
-    "pathways": "Chk1", "drugagents": "Prexasertib", "vitro": 2, "vivo": 6, "safety": 0, "cns": 0, "bbb": 0, "fda": 0, "subt": 8, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 8, "editable": 1,
-  },
-  Etoposide = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Etoposide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
-  },
-  Carboplatin = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Carboplatin", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
-  },
-  Irinotecan = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Irinotecan", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
-  },
-  CCNU = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "CCNU (lomustine)", "vitro": 4, "vivo": 3, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
-  },
-  Temozolomide = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "Temozolomide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Ponatinib = {
     "pathways": "RET", "drugagents": "Ponatinib (RET)", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 35, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 35, "editable": 1,
@@ -209,9 +211,7 @@ function intrinsicDrugTable(inputs){
   BLU_667 = {
     "pathways": "RET", "drugagents": "BLU-667", "vitro": 2, "vivo": 3, "safety": 0, "cns": 5, "bbb": 0, "fda": 0, "subt": 10, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 10, "editable": 0,
   },
-  Immune_Checkpoint_Inhibitors = {
-    "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
-  }
+
 ]
   ;
 
