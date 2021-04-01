@@ -144,7 +144,7 @@ Sunitinib = {
 
 ```
 
-After:
+After changing the entry for "vitro" from 3 to 2:
 ```
 Sunitinib = {
   "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
