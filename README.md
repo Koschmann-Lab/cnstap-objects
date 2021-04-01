@@ -6,7 +6,7 @@ KGrid Activator Version Used is:   1.3.6
 
 Runtime Used: "V8"  (JavaScript runtime called V8)
 
-## Instructions for Updating the Knowledge Objects that Provide Scientific Information to CNS-TAP
+## Instructions for Updating CNS-TAP's Knowledge Objects
 
 The Knowledge Objects in this repository collection are for the CNS-TAP Version 1.0 web application developed at the University of Michigan Medical School.
 
@@ -34,41 +34,13 @@ Here is a picture of the file structure:
 ![alt text](https://github.com/kgrid-objects/cnstap-objects/blob/master/images/Folder%20Structure.png)
 
 Every KO has:
-a metadata.json file with descriptive information
-a service.yaml file describing an API service in the OpenAPI 3.0 format
-a deployment.yaml file specifying the runtime environment(s), the function point, etc.
+a metadata.json file with descriptive information including the version of the KO
+a service.yaml file describing an API or "service" supported by the KO
+a deployment.yaml file specifying how to run the code in the KO
 
-Every KO also has one or more payload files. The payload files contain structured data that is machine-processable or software code that is machine-executable, or both. Generally, Payloads, whether in one or multiple files, represent biomedical knowledge that has been established through prior empirical analytical or deliberative procedures.
+Every KO also has one or more payload files. The payload files contain structured data or software code that machines can use. Generally, Payloads, whether in one or multiple files, contain biomedical knowledge that has been established through prior research.
 
-For the 2020 CNS-TAP web application development project, the main class of KOs (see "collection" folder) has the following file hierarchy:
-
-dasatanib             <-- chemotherapy drug name\
-|--metadata.json\
-|--service.yaml\
-|--deployment.yaml\
-|--src\
-|--index.js
-
-The payload file of each KO in this class combines structured data and software code represented using the JavaScript programming language.
-
-The structured data in each KO is two-fold. Along with a set of weights (not shown), there is in each KO a drug-specific set of 6 chemotherapy drug facts and 3 patient-specific characteristics represented in a variable object with 9 overall features like this one for dasatanib:
-
-var dasatinib = {\
-"tumor_in_vitro":2,     #drug fact\
-"tumor_in_vivo":2,      #drug fact\
-"phase_one":2,          #drug fact\
-"cns_data_response":1,  #drug fact\
-"brain_penetration":2,  #drug fact\
-"fda_approve":1,        #drug fact\
-"clonality":0,          #patient-specific characteristic\
-"varient_tier":0,       #patient-specific characteristic\
-"clinical_trial":0      #patient-specific characteristic\
-}
-
-The purpose of each drug-specific KO is to have an externalized, encapsulated, well-described, robust, shareable programmatic method for computing a chemotherapy drug and patient-specific utility score based on the drug facts and patient-specific characteristics listed above.
-
-The patient-specific inputs and the outputs from these KOs are detailed in the service.yaml file.
-
+There are only TWO KOs needed to run the CNS-TAP web application. They are described next.
 
 # Intrinsic Drug Table
 The KO named "intrinsicDrugTable" is a special KO that outputs a table containing all of the “intrinsic” drug information for all drugs. Example shown below:
