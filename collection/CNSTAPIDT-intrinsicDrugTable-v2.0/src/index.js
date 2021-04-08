@@ -110,25 +110,28 @@ function intrinsicDrugTable(inputs){
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Irinotecan", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   CCNU = {
-    "pathways": "GENERIC CYTOTOXIC", "drugagents": "CCNU (lomustine)", "vitro": 4, "vivo": 3, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+    "pathways": "GENERIC CYTOTOXIC", "drugagents": "CCNU (lomustine)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Temozolomide = {
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Temozolomide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Panobinostat = {
-    "pathways": "HDAC", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
+    "pathways": "H3K27M", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
   },
   Vorinostat = {
-    "pathways": "HDAC", "drugagents": "Vorinostat (SAHA)", "vitro": 2, "vivo": 6, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
+    "pathways": "H3K27M", "drugagents": "Vorinostat (SAHA)", "vitro": 2, "vivo": 6, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
   },
   Entinostat = {
-    "pathways": "HDAC", "drugagents": "Entinostat", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 5, "fda": 0, "subt": 18, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 18, "editable": 0,
-  },
-  Onc201 = {
-    "pathways": "HDAC", "drugagents": "Onc201", "vitro": 4, "vivo": 6, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+    "pathways": "H3K27M", "drugagents": "Entinostat", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 5, "fda": 0, "subt": 18, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 18, "editable": 0,
   },
   Valproic_Acid = {
-    "pathways": "HDAC", "drugagents": "Valproic Acid", "vitro": 4, "vivo": 3, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+    "pathways": "H3K27M", "drugagents": "Valproic Acid", "vitro": 4, "vivo": 3, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+  },
+  Fimepinostat = {
+    "pathways": "H3K27M", "drugagents": "Fimepinostat", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 0, "fda": 0, "subt": 13, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 0,
+  },
+  Onc201 = {
+    "pathways": "H3K27M", "drugagents": "Onc201", "vitro": 4, "vivo": 6, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
   },
   Alisertib = {
     "pathways": "INI1", "drugagents": "Alisertib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 0, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
@@ -195,6 +198,9 @@ function intrinsicDrugTable(inputs){
   },
   LY3023414 = {
     "pathways": "PI3K/mTOR", "drugagents": "LY3023414", "vitro": 4, "vivo": 3, "safety": 0, "cns": 5, "bbb": 5, "fda": 0, "subt": 17, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 17, "editable": 0,
+  },
+  Fimepinostat = {
+    "pathways": "PI3K/mTOR", "drugagents": "Fimepinostat", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 0, "fda": 0, "subt": 13, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 0,
   },
   Ponatinib = {
     "pathways": "RET", "drugagents": "Ponatinib (RET)", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 35, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 35, "editable": 1,
