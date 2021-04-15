@@ -43,9 +43,8 @@ Every KO also has one or more payload files. The payload files contain structure
 There are only TWO KOs needed to run the CNS-TAP web application. They are described next.
 
 ### Intrinsic Drug Table
-The KO named "intrinsicDrugTable" is a special KO that outputs a table containing all of the “intrinsic” drug information for all drugs. Example shown below:
+The KO named "intrinsicDrugTable" is a special KO that outputs a table containing all of the “intrinsic” drug information for all drugs. This object is what holds all the intrinsic information about the drug that is not patient-specific. This includes the drug name, pathway, its score for in vitro data, its score for in vivo data, its score for safety, its score for CNS data, its score for brain penetration, and its score for FDA approval. Example shown below:
 
-<intro here to this KO - what is it?  How is it used in CNS TAP?> 
 
 ```
 Dasatinib = {\
@@ -74,10 +73,16 @@ Pazopanib_PDGFR = {
 
 ### Tumor Patient Calculator KO 
 
-<add more content here> 
-   What is it?
-   How is it used in CNS TAP?
+The KO named Tumor Patient Calculator is the second KO that contains the weighting for the three patient specific categories which are clonality, varient tier, and relevant clinical trial. These weightage values are what the app will multiply to the inputted values for these three columns in order to get the final CNS-TAP patient specific score. Example shown below:
 
+```
+var weights={
+  clonalityweight:5,
+  tierscoreweight:3,
+  trialweight:20,
+
+}
+```
 
 # Making Changes to two CNS-TAP Knowledge Objects:
 
@@ -108,7 +113,7 @@ Next, three examples are given of making changes. The first two examples show ch
 
 ## ADD A NEW DRUG to the CNSTAPIDT-intrinsicDrugTable KO
 
-Here is an example of adding to the list of drug items in the "index.js" file within the SRC folder of the KO.
+Here is an example of adding to the list of drug items in the "index.js" file within the SRC folder of the KO. Particular emphasis should be placed on the "editable" section because it is not directly a part of the table. The rule of thumb is that the "editable" score should be 1 if that given drug is the first drug in its respective pathway. Otherwise, the "editable" score should be 0. For example, if you are adding a new drug to the tool that is in a new pathway, this new entry will now be the FIRST and only drug in the new pathway so it will need an "editable" score of 1. However, if you are adding a new drug to a pre-existing pathway that already has several drugs in it, simply add the new drug to the bottom of the list of drugs within that pathway and give the new drug an "editable" score of 0.
 
 Before
 ```
