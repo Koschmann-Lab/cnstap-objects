@@ -56,16 +56,16 @@ function intrinsicDrugTable(inputs){
     "pathways": "BRAF", "drugagents": "Dabrafenib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt":41,  "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0,"total": 41, "editable": 1,
   },
   Vemurafenib = {
-    "pathways": "BRAF", "drugagents": "Vemurafenib", "vitro": 2, "vivo": 0, "safety": 0, "cns": 10, "bbb": 5, "fda": 10, "subt": 27, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 27, "editable": 0,
+    "pathways": "BRAF", "drugagents": "Vemurafenib", "vitro": 2, "vivo": 0, "safety": 3, "cns": 10, "bbb": 5, "fda": 10, "subt": 30, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 30, "editable": 0,
   },
   Abemaciclib = {
-    "pathways": "CDK", "drugagents": "Abemaciclib", "vitro": 2, "vivo": 6, "safety": 0, "cns": 10, "bbb": 5, "fda": 10, "subt": 33, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 1,
+    "pathways": "CDK", "drugagents": "Abemaciclib", "vitro": 4, "vivo": 6, "safety": 3, "cns": 10, "bbb": 5, "fda": 10, "subt": 38, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
   },
   Palbociclib = {
-    "pathways": "CDK", "drugagents": "Palbociclib", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 0, "fda": 10, "subt": 23, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 23, "editable": 0,
+    "pathways": "CDK", "drugagents": "Palbociclib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 0, "bbb": 5, "fda": 10, "subt": 31, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 0,
   },
   Ribociclib = {
-    "pathways": "CDK", "drugagents": "Ribociclib", "vitro": 2, "vivo": 0, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 28, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 28, "editable": 0,
+    "pathways": "CDK", "drugagents": "Ribociclib", "vitro": 2, "vivo": 3, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt": 31, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 0,
   },
   Prexasertib = {
     "pathways": "Chk1", "drugagents": "Prexasertib", "vitro": 2, "vivo": 6, "safety": 0, "cns": 0, "bbb": 0, "fda": 0, "subt": 8, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 8, "editable": 1,
