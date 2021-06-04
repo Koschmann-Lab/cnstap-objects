@@ -1,0 +1,21 @@
+{
+    "@id": "karthik/manifest/1.0.0",
+    "@type": "koio:KnowledgeObject",
+    "identifier": "ark:/karthik/manifest",
+    "version": "1.0.0",
+    "title": "Knowledge Object Title",
+    "contributors": "Kgrid Team",
+    "description": "Knowledge Object Description",
+    "keywords": [
+        "knowledge",
+        "object"
+    ],
+    "hasServiceSpecification": "service.yaml",
+    "hasDeploymentSpecification": "deployment.yaml",
+    "hasPayload": [
+        "src/index.js"
+    ],
+    "@context": [
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+    ]
+}

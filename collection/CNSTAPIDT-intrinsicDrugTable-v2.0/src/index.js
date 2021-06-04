@@ -100,6 +100,9 @@ function intrinsicDrugTable(inputs){
   Debio_1347 = {
     "pathways": "FGFR", "drugagents": "Debio 1347 (FGFR)", "vitro": 2, "vivo": 1, "safety": 0, "cns": 0, "bbb": 0, "fda": 0, "subt": 3, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 3, "editable": 0,
   },
+  Infigratinib = {
+    "pathways": "FGFR", "drugagents": "Infigratinib (FGFR)", "vitro": 4, "vivo": 3, "safety": 3, "cns": 10, "bbb": 0, "fda": 10, "subt": 30, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 30, "editable": 0,
+  },
   Etoposide = {
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Etoposide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
   },

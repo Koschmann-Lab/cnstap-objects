@@ -1,0 +1,48 @@
+openapi: 3.0.2
+info:
+  version: 1.0.0
+  title: 'Hello, World'
+  description: hello world
+servers:
+  - url: /karthik/manifest/1.0.0
+    description: Hello world
+paths:
+  /welcome:
+    post:
+      description: Welcome.
+      operationId: welcome
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/input'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/output'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: 'https://demo.kgrid.org/schemas/basicerror.yaml'
+components:
+  schemas:
+    input:
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          example: Bob
+    output:
+      required:
+        - result
+      properties:
+        result:
+          type: object
