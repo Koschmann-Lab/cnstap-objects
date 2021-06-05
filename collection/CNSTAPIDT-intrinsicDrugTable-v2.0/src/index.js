@@ -89,10 +89,10 @@ function intrinsicDrugTable(inputs){
     "pathways": "EGFR", "drugagents": "Afatinib", "vitro": 4, "vivo": 6, "safety": 3, "cns": -10, "bbb": 0, "fda": 10, "subt": 13, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 0,
   },
   Pazopanib_FGFR = {
-    "pathways": "FGFR", "drugagents": "Pazopanib (FGFR)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 5, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
+    "pathways": "FGFR", "drugagents": "Pazopanib (FGFR)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt": 41, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 41, "editable": 1,
   },
   Ponatinib_FGFR = {
-    "pathways": "FGFR", "drugagents": "Ponatinib (FGFR)", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 35, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 35, "editable": 0,
+    "pathways": "FGFR", "drugagents": "Ponatinib (FGFR)", "vitro": 4, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 0,
   },
   Erdafitinib_FGFR = {
     "pathways": "FGFR", "drugagents": "Erdafitinib (FGFR)", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 0, "fda": 0, "subt": 15, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 15, "editable": 0,
