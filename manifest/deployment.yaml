@@ -1,5 +1,0 @@
-endpoints:
-  /welcome:
-    artifact: src/index.js
-    adapter: JAVASCRIPT
-    function: welcome
