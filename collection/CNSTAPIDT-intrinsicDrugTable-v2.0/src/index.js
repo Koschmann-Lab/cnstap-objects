@@ -52,6 +52,9 @@ function intrinsicDrugTable(inputs){
   Entrectinib = {
     "pathways": "ALK", "drugagents": "Entrectinib", "vitro": 4, "vivo": 0, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt":27, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 27, "editable": 0,
   },
+  Olaparib = {
+    "pathways": "ATRX", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 25, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 25, "editable": 1,
+  },
   Dabrafenib = {
     "pathways": "BRAF", "drugagents": "Dabrafenib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt":41,  "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0,"total": 41, "editable": 1,
   },
@@ -72,9 +75,6 @@ function intrinsicDrugTable(inputs){
   },
   Lenalidomide = {
     "pathways": "CNS Generic", "drugagents": "Lenalidomide", "vitro": 2, "vivo": 0, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
-  },
-  Olaparib = {
-    "pathways": "CNS Generic", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 25, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 25, "editable": 0,
   },
   Gemcitabine = {
     "pathways": "CNS Generic", "drugagents": "Gemcitabine", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 10, "fda": 10, "subt": 35, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 35, "editable": 0,
@@ -155,7 +155,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "MEK", "drugagents": "Cobimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 0, "bbb": 5, "fda": 10, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
   },
   Binimetinib = {
-    "pathways": "MEK", "drugagents": "Binimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 19, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 19, "editable": 0,
+    "pathways": "MEK", "drugagents": "Binimetinib", "vitro": 4, "vivo": 0, "safety": 0, "cns": 5, "bbb": 0, "fda": 0, "subt": 9, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 9, "editable": 0,
   },
   Crizotinib = {
     "pathways": "MET", "drugagents": "Crizotinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 31, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 31, "editable": 1,
