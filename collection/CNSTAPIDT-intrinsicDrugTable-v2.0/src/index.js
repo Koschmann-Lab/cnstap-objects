@@ -206,7 +206,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "PI3K/mTOR", "drugagents": "Fimepinostat", "vitro": 4, "vivo": 6, "safety": 3, "cns": 0, "bbb": 0, "fda": 0, "subt": 13, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 13, "editable": 0,
   },
   Ponatinib = {
-    "pathways": "RET", "drugagents": "Ponatinib (RET)", "vitro": 4, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
+    "pathways": "RET", "drugagents": "Ponatinib (RET)", "vitro": 4, "vivo": 6, "safety": 3, "cns": 10, "bbb": 10, "fda": 10, "subt": 43, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 43, "editable": 1,
   },
   Cabozantinib = {
     "pathways": "RET", "drugagents": "Cabozantinib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 46, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 46, "editable": 0,
