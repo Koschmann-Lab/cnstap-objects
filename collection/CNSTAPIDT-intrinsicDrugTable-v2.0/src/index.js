@@ -55,6 +55,18 @@ function intrinsicDrugTable(inputs){
   Olaparib = {
     "pathways": "ATRX", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 25, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 25, "editable": 1,
   },
+  Veliparib = {
+    "pathways": "ATRX", "drugagents": "Veliparib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 0, "bbb": 0, "fda": 0, "subt": 16, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 16, "editable": 0,
+  },
+  Talazoparib = {
+    "pathways": "ATRX", "drugagents": "Talazoparib", "vitro": 4, "vivo": 3, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
+  },
+  Rucaparib = {
+    "pathways": "ATRX", "drugagents": "Rucaparib", "vitro": 4, "vivo": 3, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 22, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 22, "editable": 0,
+  },
+  Niraparib = {
+    "pathways": "ATRX", "drugagents": "Niraparib", "vitro": 4, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 0,
+  },
   Dabrafenib = {
     "pathways": "BRAF", "drugagents": "Dabrafenib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 5, "fda": 10, "subt":41,  "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0,"total": 41, "editable": 1,
   },
