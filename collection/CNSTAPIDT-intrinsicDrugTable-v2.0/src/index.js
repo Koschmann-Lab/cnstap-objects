@@ -53,7 +53,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "ALK", "drugagents": "Entrectinib", "vitro": 4, "vivo": 0, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt":27, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 27, "editable": 0,
   },
   Olaparib = {
-    "pathways": "ATRX", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 0, "cns": 5, "bbb": 0, "fda": 10, "subt": 25, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 25, "editable": 1,
+    "pathways": "ATRX", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
   },
   Veliparib = {
     "pathways": "ATRX", "drugagents": "Veliparib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 0, "bbb": 0, "fda": 0, "subt": 16, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 16, "editable": 0,
