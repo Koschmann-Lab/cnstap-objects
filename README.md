@@ -1,4 +1,8 @@
-# cnstap-objects
+### CNS-TAP DOCUMENTATION 
+
+This documentation is specifically for the knowledge objects that are used by CNS-TAP. For more information about the CNS-TAP application, see [CNS-TAP Application](https://github.com/Koschmann-Lab/cnstap-app).
+
+## KNOWLEDGE OBJECTS
 
 Last Updated:   April 1, 2021
 
