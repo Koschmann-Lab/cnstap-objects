@@ -47,10 +47,16 @@ function intrinsicDrugTable(inputs){
     "pathways":"ALK", "drugagents": "Ceritinib", "vitro": 2, "vivo": 0, "safety": 6, "cns": 0, "bbb": 10, "fda": 10, "subt":28, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 28, "editable": 1,
   },
   Alectinib = {
-    "pathways": "ALK", "drugagents": "Alectinib", "vitro": 2, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 0, "subt":26, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 26, "editable": 0,
+    "pathways": "ALK", "drugagents": "Alectinib", "vitro": 2, "vivo": 0, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt":30, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 30, "editable": 0,
   },
   Entrectinib = {
-    "pathways": "ALK", "drugagents": "Entrectinib", "vitro": 4, "vivo": 0, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt":27, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 27, "editable": 0,
+    "pathways": "ALK", "drugagents": "Entrectinib", "vitro": 4, "vivo": 0, "safety": 3, "cns": 10, "bbb": 10, "fda": 10, "subt":37, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 37, "editable": 0,
+  },
+  Crizotinib = {
+    "pathways": "ALK", "drugagents": "Crizotinib", "vitro": 4, "vivo": 3, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt":28, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 28, "editable": 0,
+  },
+  Lorlatinib = {
+    "pathways": "ALK", "drugagents": "Lorlatinib", "vitro": 2, "vivo": 3, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt":33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
   },
   Olaparib = {
     "pathways": "ATRX", "drugagents": "Olaparib", "vitro": 4, "vivo": 6, "safety": 3, "cns": 5, "bbb": 10, "fda": 10, "subt": 38, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 38, "editable": 1,
