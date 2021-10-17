@@ -121,6 +121,10 @@ function intrinsicDrugTable(inputs){
   Infigratinib = {
     "pathways": "FGFR", "drugagents": "Infigratinib (FGFR)", "vitro": 4, "vivo": 3, "safety": 3, "cns": 10, "bbb": 0, "fda": 10, "subt": 30, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 30, "editable": 0,
   },
+  Lenvatinib = {
+    "pathways": "FGFR", "drugagents": "Lenvatinib (FGFR)", "vitro": 4, "vivo": 6, "safety": 6, "cns": 5, "bbb": 10, "fda": 10, "subt": 41, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 41, "editable": 0,
+  },
+
   Etoposide = {
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Etoposide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
   },
@@ -137,7 +141,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Temozolomide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Panobinostat = {
-    "pathways": "H3K27M", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
+    "pathways": "H3K27M", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 44, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 44, "editable": 1,
   },
   Vorinostat = {
     "pathways": "H3K27M", "drugagents": "Vorinostat (SAHA)", "vitro": 2, "vivo": 6, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
@@ -200,7 +204,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "PDGFR", "drugagents": "Sunitinib", "vitro": 2, "vivo": 6, "safety": 6, "cns": 5, "bbb": 0, "fda": 10, "subt": 29, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 29, "editable": 0,
   },
   Avapritinib = {
-    "pathways": "PDGFR", "drugagents": "Avapritinib", "vitro": 2, "vivo": 0, "safety": 0, "cns": 0, "bbb": 10, "fda": 10, "subt": 22, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 22, "editable": 0,
+    "pathways": "PDGFR", "drugagents": "Avapritinib", "vitro": 2, "vivo": 0, "safety": 3, "cns": 0, "bbb": 10, "fda": 10, "subt": 25, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 25, "editable": 0,
   },
   Immune_Checkpoint_Inhibitors = {
     "pathways": "PD-1", "drugagents": "Immune Checkpoint Inhibitors", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
