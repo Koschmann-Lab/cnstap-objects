@@ -158,6 +158,12 @@ function intrinsicDrugTable(inputs){
   Onc201 = {
     "pathways": "H3K27M", "drugagents": "Onc201", "vitro": 4, "vivo": 6, "safety": 3, "cns": 10, "bbb": 10, "fda": 0, "subt": 33, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 33, "editable": 0,
   },
+  Ivosidenib = {
+    "pathways": "IDH", "drugagents": "Ivosidenib", "vitro": 2, "vivo": 6, "safety": 3, "cns": 10, "bbb": 10, "fda": 10, "subt": 41, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 41, "editable": 1,
+  },
+  Vorasidenib = {
+    "pathways": "IDH", "drugagents": "Vorasidenib", "vitro": 0, "vivo": 6, "safety": 0, "cns": 10, "bbb": 10, "fda": 0, "subt": 26, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 26, "editable": 0,
+  },
   Alisertib = {
     "pathways": "INI1", "drugagents": "Alisertib", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 0, "subt": 36, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 1,
   },
