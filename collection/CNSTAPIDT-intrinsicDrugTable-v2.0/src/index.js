@@ -141,7 +141,7 @@ function intrinsicDrugTable(inputs){
     "pathways": "GENERIC CYTOTOXIC", "drugagents": "Temozolomide", "vitro": 4, "vivo": 6, "safety": 6, "cns": 10, "bbb": 0, "fda": 10, "subt": 36, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 36, "editable": 0,
   },
   Panobinostat = {
-    "pathways": "H3K27M", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 10, "subt": 44, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 44, "editable": 1,
+    "pathways": "H3K27M", "drugagents": "Panobinostat", "vitro": 2, "vivo": 6, "safety": 6, "cns": 10, "bbb": 10, "fda": 0, "subt": 34, "icln": 0, "itier":0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 34, "editable": 1,
   },
   Vorinostat = {
     "pathways": "H3K27M", "drugagents": "Vorinostat (SAHA)", "vitro": 2, "vivo": 6, "safety": 6, "cns": -10, "bbb": 10, "fda": 10, "subt": 24, "icln": 0, "itier": 0, "itrl":0, "cln": 0, "tier": 0, "trl": 0, "total": 24, "editable": 0,
