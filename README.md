@@ -227,4 +227,8 @@ Then click on 'edit release' and replace the 3 files with the 3 new files as dep
 
 ![alt text](https://github.com/kgrid-objects/cnstap-objects/blob/master/images/Releasepart2.png)
 
-- Finally, click 'update release' at the bottom and you are done. The changes should be reflected in the deployed app shortly
+- Finally, click 'update release' at the bottom and move on to the final stage of this task which is to trigger the KGrid Activator to upload the newly released Knowledge Object content.
+
+## TRIGGERING THE ACTIVATOR RUNNING IN HEROKU TO BRING IN THE NEWLY EDITED AND UPATED KNOWLEDGE OBJECTS
+
+
