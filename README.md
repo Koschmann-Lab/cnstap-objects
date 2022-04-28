@@ -4,7 +4,7 @@ This documentation is specifically for the knowledge objects that are used by CN
 
 ## KNOWLEDGE OBJECTS
 
-Last Updated:   April 1, 2021
+Last Updated:   April 28, 2022
 
 KGrid Activator Version Used is:   1.3.6
 
@@ -14,7 +14,7 @@ Runtime Used: "V8"  (JavaScript runtime called V8)
 
 The Knowledge Objects in this repository collection are for the CNS-TAP Version 1.0 web application developed at the University of Michigan Medical School.
 
-The purpose of the CNS-TAP web application development project is to develop a manageable, extensible knowledge base to support the use of CNS-TAP in research and clinical trials in neuro-oncology.
+One original purpose of developing the CNS-TAP web application using Knowledge Objects was to have a manageable, extensible knowledge base to support the use of CNS-TAP in research and clinical trials in neuro-oncology.
 
 This project requires two different Knoweldge Objects (KOs) that, when uploaded into CNS-TAP, enable computation of drug-specific and patient-specific scores for a variety of chemotherapy agents (i.e., drugs or medications). These scores indicate the likely usefulness of various chemotherapy drugs for patients with brain tumors.
 
