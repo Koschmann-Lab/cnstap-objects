@@ -185,7 +185,7 @@ var weights={
 
 UPDATING KO VERSION(S)
 
-After making changes in the src code for either of the knowledge objects, you will need to take the following steps to ensure that this code is correctly pushed and deployed onto the web. The first step ensures that the version of the code is updated everytime a new change is made:
+After making changes to index.js files located in the src code folder for one or both of the knowledge objects, you will need to take the following steps to ensure that this changed index.js file code is correctly pushed and deployed into the CNS-TAP app running on the web. The first step ensures that the version of the index.js code is updated everytime a new change is made:
 
 - Update version number within the @id, identifier, and version sections of the metadata.json file
 
@@ -197,24 +197,23 @@ Once you're done updating the versioning numbers, you're all set with regards to
 
 PACKAGING
 
-Now, make sure to save the file and then open up the command line and follow the following steps:
+Now, make sure to SAVE the edited index.js and metadata file or files and then open up the command line and follow the following steps:
 
-- Save and then go to the command line (Apple Mac Terminal) in the collection folder
+- At the command line (e.g., using Apple Mac Terminal) go to the "collection folder" containing the knowledge objects that you edited. 
 
-- Run `kgrid package-all`
+- From inside the "collection folder", RUN `kgrid package-all`
 
-  Note: Kgrid CLI is needed to run this command. If it is not installed, then run this: `npm i @kgrid/cli -g`
+  Note: Kgrid CLI is needed to run this command. If it is not installed, then run this to install it: `npm i @kgrid/cli -g`
 
-
-- Then run `kgrid create-manifest`
+- Next, RUN `kgrid create-manifest` to create a new file manifest listing the ZIP files in the "collection folder."
 
 UPLOAD CHANGED AND RE-PACKAGED KOs TO GITHUB
 
-Now that you have run this command, you will then need to make sure that the changes you made on your local machine are pushed to github so that they can be deployed. Follow the next few steps to do this:
+Now that you have run the commands that resulted in one or updated ZIP files with packaged KOs and an updated manifest, you will then need to make sure that the changes you made on your local machine are pushed to Github so that they can be deployed into the CNS-TAP app. Follow the next few steps to do this:
 
-- Push KO file changes to github
+- Push KO file changes to Github
 
-- Copy 3 files (manifest.json and the 2 zip files that have the name of each of the 2 objects) into github release section and upload by replacing the existing 3 files with the new 3 files
+- Copy 3 files (manifest.json and the 2 zip files that have the name of each of the 2 objects) into the Github RELEASE section and upload the new files thereby replacing the existing 3 files with the new 3 files
 
 RELEASE UPDATED KOs ON GITHUB
 
