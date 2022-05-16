@@ -235,6 +235,24 @@ The final step involves downloading Insomnia, an API application, that will be u
 
 Once downloaded and installed, follow the following steps:
 
-- In this repo, go t
+- In this repository, go to the images section and download the file titled Insomnia-CNS-TAP.json Here is a link: [Insomnia-CNS-TAP.json](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia-CNS-TAP.json)
+
+- Open the insomnia app, click the top left dropdown menu and then press 'Import/Export' as depicted below
+
+![alt text](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia%20Import.png)
+
+- Then, click the 'data' tab and upload the downloaded file (Insomnia-CNS-TAP.json)
+
+- Now, select the 'Reload' function on the left side and then click the 'Send' button as depicted below
+
+![alt text](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia%20Reload.png)
+
+- Then, select the 'Execute Intrinsic Drug Table' or the 'Execute Tumor Patient Calculator' button on the left side, depending on which knowledge object was updated. Click the "Send" button as depicted below
+
+![alt text](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia%20Post.png)
+
+At this point, the new changes should reflect in the code on the right. If not, you may need to redo the 'Reload' function a few additional times alongside the 'Execute' function untill the new changes appear in the code on the right.
+
+Once the changes appear, the process is complete, and the Knowledge Objects are now fully updated. The CNS-TAP application should now reflect the updated objects.
 
 
