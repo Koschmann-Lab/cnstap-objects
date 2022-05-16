@@ -247,7 +247,7 @@ Once downloaded and installed, follow the following steps:
 
 ![alt text](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia%20Reload.png)
 
-- Then, select the 'Execute Intrinsic Drug Table' or the 'Execute Tumor Patient Calculator' button on the left side, depending on which knowledge object was updated. Click the "Send" button as depicted below
+- Then, select the 'Execute Intrinsic Drug Table' or the 'Execute Tumor Patient Calculator' button on the left side, depending on which knowledge object was updated. Click the 'Send' button as depicted below
 
 ![alt text](https://github.com/Koschmann-Lab/cnstap-objects/blob/master/images/Insomnia%20Post.png)
 
