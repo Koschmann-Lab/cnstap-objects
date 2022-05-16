@@ -231,4 +231,10 @@ Then click on 'edit release' and replace the 3 files with the 3 new files as dep
 
 ## TRIGGERING THE ACTIVATOR RUNNING IN HEROKU TO BRING IN THE NEWLY EDITED AND UPATED KNOWLEDGE OBJECTS
 
+The final step involves downloading Insomnia, an API application, that will be used to ensure that the new changes are reflected in the app. Insomnia can be readily downloaded from their website: [Insomnia Website](https://insomnia.rest/download)
+
+Once downloaded and installed, follow the following steps:
+
+- In this repo, go t
+
 
